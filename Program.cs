@@ -1,6 +1,7 @@
 ﻿using App;
 
 bool running = true;
+Manager manager = new Manager();
 
 //Login
 Console.Clear();
@@ -45,6 +46,7 @@ while (running)
     switch (input)
     {
         case "1":
+            manager.NewJournal();
             break;
 
         case "2":
